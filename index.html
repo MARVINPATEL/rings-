@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Rings of fire
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="circles"></div>
+    <div class="circles"></div>
+    <svg>
+        <filter id="wavy">
+            <feTurbelence x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">  
+            </feTurbelence>
+            <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+        </filter>
+    </svg>
+</body>
+</html>
